@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="#FF0000"
+            android:text="red"
+            android:textColor="#FFFFFF"
+            android:gravity="top" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="#00FF00"
+            android:text="green"
+            android:textColor="#FFFFFF"
+            android:gravity="top" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="#0000FF"
+            android:text="blue"
+            android:textColor="#FFFFFF"
+            android:gravity="top" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="#FFD700"
+            android:text="yellow"
+            android:textColor="#FFFFFF"
+            android:gravity="top" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="row one"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="row two"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="row three"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="row four"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/relative_page"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_marginTop="50sp"
+        android:text="Relative Layout"/>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <!-- Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter URL:"
+        android:textSize="18sp"
+        android:textColor="#000000" />
+
+    <!-- Input Field -->
+    <EditText
+        android:id="@+id/urlInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="https://www.example.com"
+        android:inputType="textUri"
+        android:padding="10dp"
+        android:background="#DDDDDD" />
+
+    <!-- Open URL Button -->
+    <Button
+        android:id="@+id/openUrlButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open URL"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
