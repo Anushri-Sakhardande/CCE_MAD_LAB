@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:id="@+id/main" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".MainActivity">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+        <Button android:id="@+id/cupcake" android:layout_width="136dp" android:layout_height="wrap_content" android:text="Cupcake" tools:layout_editor_absoluteX="16dp" tools:layout_editor_absoluteY="16dp"/>
+        <Button android:id="@+id/donut" android:layout_width="136dp" android:layout_height="49dp" android:text="Donut" tools:layout_editor_absoluteX="129dp" tools:layout_editor_absoluteY="16dp"/>
+        <Button android:id="@+id/eclair" android:layout_width="136dp" android:layout_height="49dp" android:text="Eclair" tools:layout_editor_absoluteX="129dp" tools:layout_editor_absoluteY="16dp"/>
+        <Button android:id="@+id/froyo" android:layout_width="136dp" android:layout_height="49dp" android:text="Froyo" tools:layout_editor_absoluteX="129dp" tools:layout_editor_absoluteY="16dp"/>
+        <Button android:id="@+id/gingerbread" android:layout_width="136dp" android:layout_height="49dp" android:text="Gingerbread" tools:layout_editor_absoluteX="129dp" tools:layout_editor_absoluteY="16dp"/>
+        <Button android:id="@+id/honeycomb" android:layout_width="136dp" android:layout_height="49dp" android:text="Honeycomb" tools:layout_editor_absoluteX="129dp" tools:layout_editor_absoluteY="16dp"/>
+        <Button android:id="@+id/icecream" android:layout_width="136dp" android:layout_height="49dp" android:text="Icecream" tools:layout_editor_absoluteX="129dp" tools:layout_editor_absoluteY="16dp"/>
+        <Button android:id="@+id/jellybean" android:layout_width="136dp" android:layout_height="49dp" android:text="Jellybean" tools:layout_editor_absoluteX="129dp" tools:layout_editor_absoluteY="16dp"/>
+        <Button android:id="@+id/kitkat" android:layout_width="136dp" android:layout_height="49dp" android:text="Kitkat" tools:layout_editor_absoluteX="129dp" tools:layout_editor_absoluteY="16dp"/>
+        <Button android:id="@+id/lollipop" android:layout_width="136dp" android:layout_height="49dp" android:text="Lollipop" tools:layout_editor_absoluteX="129dp" tools:layout_editor_absoluteY="16dp"/>
+        <Button android:id="@+id/marshmallow" android:layout_width="136dp" android:layout_height="49dp" android:text="Marshmallow" tools:layout_editor_absoluteX="129dp" tools:layout_editor_absoluteY="16dp"/>
+        <Button android:id="@+id/nought" android:layout_width="136dp" android:layout_height="49dp" android:text="Nought" tools:layout_editor_absoluteX="129dp" tools:layout_editor_absoluteY="16dp"/>
+        <Button android:id="@+id/oreo" android:layout_width="136dp" android:layout_height="49dp" android:text="Oreo" tools:layout_editor_absoluteX="129dp" tools:layout_editor_absoluteY="16dp"/>
+        <Button android:id="@+id/pie" android:layout_width="136dp" android:layout_height="49dp" android:text="Pie" tools:layout_editor_absoluteX="129dp" tools:layout_editor_absoluteY="16dp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
