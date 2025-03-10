@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_gravity="center"
+        android:text="Movie Ticket Booking"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_height="30dp"
+        android:layout_width="match_parent"/>
+
+    <Spinner
+        android:id="@+id/movieSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"/>
+
+    <Spinner
+        android:id="@+id/theatreSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/dateTextView"
+        android:background="@android:color/darker_gray"
+        android:padding="10dp"
+        android:text="Select Date"
+         android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/timeTextView"
+        android:background="@android:color/darker_gray"
+        android:padding="10dp"
+        android:text="Select Showtime"
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"/>
+
+    <ToggleButton
+        android:id="@+id/ticketTypeToggle"
+        android:textOff="Standard"
+        android:textOn="Premium"
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/bookNowButton"
+        android:text="Book Now"
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/resetButton"
+        android:text="Reset"
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"/>
+</LinearLayout>

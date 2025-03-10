@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Your Food Items"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/chkPizza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pizza - ₹200" />
+
+    <CheckBox
+        android:id="@+id/chkBurger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Burger - ₹100" />
+
+    <CheckBox
+        android:id="@+id/chkPasta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pasta - ₹150" />
+
+    <CheckBox
+        android:id="@+id/chkSandwich"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sandwich - ₹80" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Order"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
