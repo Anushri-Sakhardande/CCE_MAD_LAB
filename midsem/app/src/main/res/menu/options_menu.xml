@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/send"
+        android:title="send"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/gallery"
+        android:title="gallery"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/call"
+        android:title="call"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/calculator"
+        android:title="calculator"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/exit"
+        android:title="exit"
+        app:showAsAction="ifRoom" />
+</menu>
