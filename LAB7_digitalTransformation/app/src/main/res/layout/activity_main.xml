@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Filter Menu Icon -->
+    <ImageView
+        android:id="@+id/menuIcon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@android:drawable/ic_menu_manage"
+        android:contentDescription="Filter Options"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <!-- Search Input -->
+    <EditText
+        android:id="@+id/searchInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter keyword to search"
+        android:visibility="gone"
+        android:padding="10dp"/>
+
+    <!-- Description Text -->
+    <TextView
+        android:id="@+id/descriptionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Digital Transformation is the process of integrating digital technology into all areas of business, fundamentally changing how organizations operate and deliver value to customers."
+        android:textSize="16sp"
+        android:paddingTop="10dp"/>
+
+</LinearLayout>
